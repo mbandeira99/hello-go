@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app-from-image:
+    image: mbandeira99/codeeducation
+    container_name: hello-app-from-image
+
+  app-from-build:
+    build: .
+    container_name: hello-app-from-build
